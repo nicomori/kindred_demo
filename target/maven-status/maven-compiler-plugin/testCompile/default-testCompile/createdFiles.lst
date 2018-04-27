@@ -1,0 +1,15 @@
+com/kindred/util/OpenBrowserChrome.class
+com/kindred/util/DateAndTime.class
+com/kindred/pageobject/web/GenericPage.class
+com/kindred/framework/DSL$WebElementLocator.class
+com/kindred/util/SelectorBrowser.class
+com/kindred/steps/common/CommonSteps.class
+com/kindred/steps/StepsHelper.class
+com/kindred/framework/ParentScenario.class
+com/kindred/framework/ParentPage.class
+com/kindred/steps/Steps.class
+com/kindred/AppTest.class
+com/kindred/framework/DSL.class
+com/kindred/pageobject/web/BlogPage.class
+com/kindred/pageobject/web/HomePage.class
+com/kindred/util/ScreenshotCreator.class

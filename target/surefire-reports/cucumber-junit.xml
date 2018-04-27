@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="425.266253">
+<testcase classname="Tree test more popular" name="verify the correct behavior of the search functionality" time="39.997255">
+<failure message="java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:494)&#10;&#9;at org.testng.Assert.assertTrue(Assert.java:42)&#10;&#9;at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)&#10;&#9;at ✽.Then verify if the text &quot;Messi&quot; appear correctly(mobile/interview_mobile_web.feature:11)&#10;"><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the icon to search........................................passed
+And send this text "Messi" to search........................................passed
+Then verify if the text "Messi" appear correctly............................failed
+
+StackTrace:
+java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text "Messi" appear correctly(mobile/interview_mobile_web.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links" time="25.087923">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Responsible Gaming", and with this index "2" in the footer.passed
+Then verify the URL "whentostop" and the Title "Responsible" of the new web.passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 2" time="30.934565">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Terms and Conditions", and with this index "2" in the footer.passed
+Then verify the URL "terms" and the Title "Terms" of the new web............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 3" time="28.81002">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Security Information", and with this index "2" in the footer.passed
+Then verify the URL "security" and the Title "official" of the new web......passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 4" time="30.365136">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Cookies", and with this index "2" in the footer.passed
+Then verify the URL "cookies" and the Title "Cookies" of the new web........passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 5" time="35.875288">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Sports", and with this index "1" in the body carrousel.passed
+Then verify the URL "betting" and the Title "Sports" of the new web.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 6" time="28.981373">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Casino", and with this index "1" in the body carrousel.passed
+Then verify the URL "casino" and the Title "Casino" of the new web..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 7" time="31.510088">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Live Casino", and with this index "1" in the body carrousel.passed
+Then verify the URL "casino" and the Title "Casino" of the new web..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 8" time="32.558556">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Bingo", and with this index "1" in the body carrousel.passed
+Then verify the URL "bingo" and the Title "Bingo" of the new web............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 9" time="27.802547">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Lottery Betting", and with this index "1" in the body carrousel.passed
+Then verify the URL "lotto" and the Title "Lottery" of the new web..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 10" time="30.109048">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Poker", and with this index "1" in the body carrousel.passed
+Then verify the URL "poker" and the Title "Poker" of the new web............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 11" time="23.540273">
+<failure message="org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 7 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'Nicolass-MacBook-Pro.local', ip: '169.254.100.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_151'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{deviceScreenSize=1440x2960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=ce07171735a7641d017e, platform=LINUX, deviceUDID=ce07171735a7641d017e, desired={noReset=false, browserName=Chrome, platformName=Android, deviceName=Android}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=SM-N950F, platformName=Android, deviceManufacturer=samsung}]&#10;Session ID: 4ecd56ca-9b7d-44e8-a9e8-fe7224d8db47&#10;*** Element info: {Using=xpath, value=(//*[contains(text(),'Blog')])['1']}&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:132)&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#10;&#9;at com.kindred.framework.DSL.clickJSx2(DSL.java:291)&#10;&#9;at com.kindred.framework.DSL.genericClickByContainsSomeTextAndWithSomeSpecificIndex(DSL.java:51)&#10;&#9;at com.kindred.pageobject.web.GenericPage.genericMakeClickInALinkWithSomeText(GenericPage.java:30)&#10;&#9;at com.kindred.steps.Steps.makeClickInATextPerT3ext(Steps.java:37)&#10;&#9;at ✽.And make click in the link with the text &quot;Blog&quot;, and with this index &quot;1&quot; in the body carrousel(mobile/interview_mobile_web.feature:29)&#10;"><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Blog", and with this index "1" in the body carrousel.failed
+Then verify the URL "blog" and the Title "Blog" of the new web..............skipped
+
+StackTrace:
+org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Nicolass-MacBook-Pro.local', ip: '169.254.100.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=1440x2960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=ce07171735a7641d017e, platform=LINUX, deviceUDID=ce07171735a7641d017e, desired={noReset=false, browserName=Chrome, platformName=Android, deviceName=Android}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=SM-N950F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 4ecd56ca-9b7d-44e8-a9e8-fe7224d8db47
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Blog')])['1']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:132)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kindred.framework.DSL.clickJSx2(DSL.java:291)
+	at com.kindred.framework.DSL.genericClickByContainsSomeTextAndWithSomeSpecificIndex(DSL.java:51)
+	at com.kindred.pageobject.web.GenericPage.genericMakeClickInALinkWithSomeText(GenericPage.java:30)
+	at com.kindred.steps.Steps.makeClickInATextPerT3ext(Steps.java:37)
+	at ✽.And make click in the link with the text "Blog", and with this index "1" in the body carrousel(mobile/interview_mobile_web.feature:29)
+]]></failure>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 12" time="27.754176">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Apps", and with this index "1" in the body carrousel.passed
+Then verify the URL "apps" and the Title "Apps" of the new web..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tree test more popular" name="verify the footer links 13" time="31.940005">
+<system-out><![CDATA[Given I detect the enviroment to execute the test...........................passed
+Given I am on "Blog" landing page...........................................passed
+And make click in the link with the text "Special Offers", and with this index "1" in the body carrousel.passed
+Then verify the URL "promotions" and the Title "Special" of the new web.....passed
+]]></system-out>
+</testcase>
+</testsuite>

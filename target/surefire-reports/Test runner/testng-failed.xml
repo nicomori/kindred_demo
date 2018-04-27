@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Test runner]" parallel="tests">
+  <test name="test(failed)" parallel="tests">
+    <classes>
+      <class name="com.kindred.AppTest">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.kindred.AppTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Test runner] -->

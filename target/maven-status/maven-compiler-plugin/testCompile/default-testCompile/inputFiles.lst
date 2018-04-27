@@ -1,0 +1,14 @@
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/steps/Steps.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/util/OpenBrowserChrome.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/steps/StepsHelper.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/util/DateAndTime.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/framework/ParentPage.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/util/SelectorBrowser.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/pageobject/web/HomePage.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/steps/common/CommonSteps.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/framework/DSL.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/pageobject/web/GenericPage.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/AppTest.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/pageobject/web/BlogPage.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/framework/ParentScenario.java
+/Users/nicolasmori/Documents/github/kindred-Interview/src/test/java/com/kindred/util/ScreenshotCreator.java

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: mobile&#x2F;interview_mobile_web.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Tree test more popular</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: verify the correct behavior of the search functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the icon to search (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  send this text &quot;&lt;textToSearch&gt;&quot; to search (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the correct behavior of the search functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify if the text &quot;&lt;textToSearch&gt;&quot; appear correctly (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (failed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the icon to search (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  send this text &quot;Messi&quot; to search (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify if the text &quot;Messi&quot; appear correctly (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the footer (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Responsible Gaming&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;whentostop&quot; and the Title &quot;Responsible&quot; of the new web (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Terms and Conditions&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;terms&quot; and the Title &quot;Terms&quot; of the new web (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Security Information&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;security&quot; and the Title &quot;official&quot; of the new web (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Cookies&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;cookies&quot; and the Title &quot;Cookies&quot; of the new web (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the body carrousel (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Sports&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;betting&quot; and the Title &quot;Sports&quot; of the new web (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Live Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Bingo&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;bingo&quot; and the Title &quot;Bingo&quot; of the new web (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Lottery Betting&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;lotto&quot; and the Title &quot;Lottery&quot; of the new web (failed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Poker&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;poker&quot; and the Title &quot;Poker&quot; of the new web (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  make click in the link with the text &quot;Blog&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  verify the URL &quot;blog&quot; and the Title &quot;Blog&quot; of the new web (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test runner" duration-ms="426192" started-at="2018-04-27T08:31:54Z" finished-at="2018-04-27T08:39:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.kindred.AppTest@4678c730]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="test" duration-ms="426192" started-at="2018-04-27T08:31:54Z" finished-at="2018-04-27T08:39:00Z">
+      <class name="com.kindred.AppTest">
+        <test-method status="FAIL" signature="run_cukes()[pri:0, instance:com.kindred.AppTest@4678c730]" name="run_cukes" duration-ms="426173" started-at="2018-04-27T10:31:54Z" description="Runs Cucumber Features" finished-at="2018-04-27T10:39:00Z">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:689)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text "Messi" appear correctly(mobile/interview_mobile_web.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: mobile&#x2F;interview_mobile_web.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Tree test more popular</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: verify the correct behavior of the search functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the icon to search (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  send this text &quot;&lt;textToSearch&gt;&quot; to search (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the correct behavior of the search functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify if the text &quot;&lt;textToSearch&gt;&quot; appear correctly (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (failed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the icon to search (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  send this text &quot;Messi&quot; to search (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify if the text &quot;Messi&quot; appear correctly (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the footer (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Responsible Gaming&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;whentostop&quot; and the Title &quot;Responsible&quot; of the new web (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Terms and Conditions&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;terms&quot; and the Title &quot;Terms&quot; of the new web (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Security Information&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;security&quot; and the Title &quot;official&quot; of the new web (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Cookies&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;cookies&quot; and the Title &quot;Cookies&quot; of the new web (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the body carrousel (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Sports&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;betting&quot; and the Title &quot;Sports&quot; of the new web (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Live Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Bingo&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;bingo&quot; and the Title &quot;Bingo&quot; of the new web (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Lottery Betting&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;lotto&quot; and the Title &quot;Lottery&quot; of the new web (failed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Poker&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;poker&quot; and the Title &quot;Poker&quot; of the new web (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  make click in the link with the text &quot;Blog&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: verify the footer links</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  verify the URL &quot;blog&quot; and the Title &quot;Blog&quot; of the new web (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.kindred.AppTest -->
+    </test> <!-- test -->
+  </suite> <!-- Test runner -->
+</testng-results>

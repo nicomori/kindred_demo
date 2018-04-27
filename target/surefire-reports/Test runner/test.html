@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 27 10:31:54 CEST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>426 seconds (426192 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.kindred.AppTest.run_cukes()'><b>run_cukes</b><br>Test class: com.kindred.AppTest<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-331621213" onClick='toggleBox("Output-331621213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-331621213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-331621213">
+<div "featureFile">Feature File: mobile&#x2F;interview_mobile_web.feature</div><br/>
+<div "feature">Feature: Tree test more popular</div><br/>
+<div "scenarioOutline">Scenario Outline: verify the correct behavior of the search functionality</div><br/>
+<div "result">And  make click in the icon to search (passed : 13s)</div><br/>
+<div "result">And  send this text &quot;&lt;textToSearch&gt;&quot; to search (passed : 4s)</div><br/>
+<div "scenario">Scenario Outline: verify the correct behavior of the search functionality</div><br/>
+<div "result">Then  verify if the text &quot;&lt;textToSearch&gt;&quot; appear correctly (passed : 8s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 7s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (failed : 4s)</div><br/>
+<div "scenarioOutline">Scenario Outline: verify the footer links</div><br/>
+<div "result">And  make click in the icon to search (passed : 12s)</div><br/>
+<div "result">And  send this text &quot;Messi&quot; to search (passed : 3s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify if the text &quot;Messi&quot; appear correctly (passed : 3s)</div><br/>
+<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the footer (passed : 4s)</div><br/>
+<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 12s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Responsible Gaming&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div><br/>
+<div "result">Then  verify the URL &quot;whentostop&quot; and the Title &quot;Responsible&quot; of the new web (passed : 12s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 8s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 2s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Terms and Conditions&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div><br/>
+<div "result">Then  verify the URL &quot;terms&quot; and the Title &quot;Terms&quot; of the new web (passed : 12s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 9s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 3s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Security Information&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div><br/>
+<div "scenarioOutline">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;security&quot; and the Title &quot;official&quot; of the new web (passed : 12s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 13s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Cookies&quot;, and with this index &quot;2&quot; in the footer (passed : 4s)</div><br/>
+<div "result">Then  verify the URL &quot;cookies&quot; and the Title &quot;Cookies&quot; of the new web (passed : 13s)</div><br/>
+<div "result">And  make click in the link with the text &quot;&lt;textInTheLink&gt;&quot;, and with this index &quot;&lt;index&gt;&quot; in the body carrousel (passed : 4s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;&lt;url&gt;&quot; and the Title &quot;&lt;title&gt;&quot; of the new web (passed : 6s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Sports&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 8s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;betting&quot; and the Title &quot;Sports&quot; of the new web (passed : 4s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 5s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Live Casino&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 3s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;casino&quot; and the Title &quot;Casino&quot; of the new web (passed : 6s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Bingo&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 9s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;bingo&quot; and the Title &quot;Bingo&quot; of the new web (passed : 3s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Lottery Betting&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;lotto&quot; and the Title &quot;Lottery&quot; of the new web (failed : 0s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (skipped)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Poker&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 4s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;poker&quot; and the Title &quot;Poker&quot; of the new web (passed : 5s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+<div "result">Given  I am on &quot;Blog&quot; landing page (passed : 12s)</div><br/>
+<div "result">And  make click in the link with the text &quot;Blog&quot;, and with this index &quot;1&quot; in the body carrousel (passed : 10s)</div><br/>
+<div "scenario">Scenario Outline: verify the footer links</div><br/>
+<div "result">Then  verify the URL &quot;blog&quot; and the Title &quot;Blog&quot; of the new web (passed : 3s)</div><br/>
+<div "result">Given  I detect the enviroment to execute the test (passed : 4s)</div><br/>
+</div>
+</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text &quot;Messi&quot; appear correctly(mobile/interview_mobile_web.feature:11)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace331621213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace331621213'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:689)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text &quot;Messi&quot; appear correctly(mobile/interview_mobile_web.feature:11)
+</pre></div></td>
+<td>426</td>
+<td>com.kindred.AppTest@4678c730</td></tr>
+</table><p>
+</body>
+</html>

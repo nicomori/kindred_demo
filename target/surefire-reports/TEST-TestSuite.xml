@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="426.181" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @TestForMobileWeb"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="user.country.format" value="DE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/nicolasmori/Documents/github/kindred-Interview"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env" value="production"/>
+    <property name="uuid" value="ce07171735a7641d017e"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nicolasmori/Documents/github/kindred-Interview"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v9/j9c9f6yd3ml354b7lk85ss3r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/nicolasmori/Documents/apache-maven/bin/m2.conf"/>
+    <property name="testingType" value="mobileweb"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nicolasmori/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/nicolasmori/Documents/apache-maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="library.jansi.path" value="/Users/nicolasmori/Documents/apache-maven/lib/jansi-native"/>
+    <property name="user.home" value="/Users/nicolasmori"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="nicolasmori"/>
+    <property name="java.class.path" value="/Users/nicolasmori/Documents/apache-maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package -DtestingType=mobileweb -Duuid=ce07171735a7641d017e -Denv=production -Dcucumber.options=--tags @TestForMobileWeb"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="/Users/nicolasmori/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/nicolasmori/Documents/apache-maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="run_cukes" classname="com.kindred.AppTest" time="426.181">
+    <failure message="java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:689)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text "Messi" appear correctly(mobile/interview_mobile_web.feature:11)
+</failure>
+    <system-out><![CDATA[Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to make click in some element
+Starting to make click in the search icon.
+Starting to sleep the thread 2000
+
+
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 4. Current method finded: makeClickInTheIconSearch
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 5. Current method finded: body_sidebar_editfield_search
+Trying to find the Method Name: "body_expandermenu" 
+ change the method to 6. Current method finded: body_expandermenu
+
+
+returning element for Web-Mobile
+Making click in a web element
+Starting to sleep the thread 4000
+
+
+Trying to find the Method Name: "body_sidebar_icon_search" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_sidebar_icon_search" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_sidebar_icon_search" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+
+
+returning element for Web-Mobile
+Making click in a web element
+Starting to send this text Messi
+Starting to send this String Messi to the field search
+Starting to sleep the thread 2000
+
+
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 4. Current method finded: makeClickInTheIconSearch
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 5. Current method finded: body_sidebar_editfield_search
+
+
+returning element for Web-Mobile
+Starting to send this String Messi to a webelement
+Press enter key after send the string
+
+
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 4. Current method finded: makeClickInTheIconSearch
+Trying to find the Method Name: "body_sidebar_editfield_search" 
+ change the method to 5. Current method finded: body_sidebar_editfield_search
+
+
+returning element for Web-Mobile
+Starting to send keys to a webelement
+Starting to sleep the thread 4000
+Starting to find this text Messi
+Starting to verify if the first cluster is correctly displayed.
+Starting to sleep the thread 2000
+
+
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 4. Current method finded: makeClickInTheIconSearch
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 5. Current method finded: body_sidebar_editfield_search
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 6. Current method finded: body_expandermenu
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 7. Current method finded: body_results_cluster_descrition
+
+
+returning element for Web-Mobile
+Starting to verify if a webelement is displayed
+Starting to verify if we can find this text: Messi appear correctly in the first cluster
+Starting to sleep the thread 2000
+
+
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 1. Current method finded: verifyIfTheFirstClusterIsDisplayed
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 2. Current method finded: verifyIfSomeTextAppearInTheFirstCluster
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 3. Current method finded: body_sidebar_icon_search
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 4. Current method finded: makeClickInTheIconSearch
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 5. Current method finded: body_sidebar_editfield_search
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 6. Current method finded: body_expandermenu
+Trying to find the Method Name: "body_results_cluster_descrition" 
+ change the method to 7. Current method finded: body_results_cluster_descrition
+
+
+returning element for Web-Mobile
+Starting to verify if this text is displayed "Messi" in some locator
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Responsible Gaming and with some specific index of element in this case: 2
+Making a generic click in a web element with the text "Responsible Gaming"
+
+Starting to validate if this text whentostop appear in the url
+Starting to find this text: whentostop, in this url: https://www.unibet.co.uk/general-info/whentostop
+Starting to sleep the thread 2000
+Starting to verify if this text: "whentostop" appear in the URL, with this content: https://www.unibet.co.uk/general-info/whentostop
+Starting to validate if this text Responsible appear in the title
+Starting to find this text: Responsible, in this title: Responsible gaming - Unibet
+Starting to sleep the thread 2000
+Starting to verify if this text: "Responsible" appear in the TITLE, with this content: Responsible gaming - Unibet
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Terms and Conditions and with some specific index of element in this case: 2
+Making a generic click in a web element with the text "Terms and Conditions"
+
+Starting to validate if this text terms appear in the url
+Starting to find this text: terms, in this url: https://www.unibet.co.uk/general-info/terms
+Starting to sleep the thread 2000
+Starting to verify if this text: "terms" appear in the URL, with this content: https://www.unibet.co.uk/general-info/terms
+Starting to validate if this text Terms appear in the title
+Starting to find this text: Terms, in this title: Terms and conditions - Unibet
+Starting to sleep the thread 2000
+Starting to verify if this text: "Terms" appear in the TITLE, with this content: Terms and conditions - Unibet
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Security Information and with some specific index of element in this case: 2
+Making a generic click in a web element with the text "Security Information"
+
+Starting to validate if this text security appear in the url
+Starting to find this text: security, in this url: https://www.unibet.co.uk/general-info/security
+Starting to sleep the thread 2000
+Starting to verify if this text: "security" appear in the URL, with this content: https://www.unibet.co.uk/general-info/security
+Starting to validate if this text official appear in the title
+Starting to find this text: official, in this title: The official Unibet page for security information
+Starting to sleep the thread 2000
+Starting to verify if this text: "official" appear in the TITLE, with this content: The official Unibet page for security information
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Cookies and with some specific index of element in this case: 2
+Making a generic click in a web element with the text "Cookies"
+
+Starting to validate if this text cookies appear in the url
+Starting to find this text: cookies, in this url: https://www.unibet.co.uk/general-info/cookies
+Starting to sleep the thread 2000
+Starting to verify if this text: "cookies" appear in the URL, with this content: https://www.unibet.co.uk/general-info/cookies
+Starting to validate if this text Cookies appear in the title
+Starting to find this text: Cookies, in this title: Cookies - Unibet
+Starting to sleep the thread 2000
+Starting to verify if this text: "Cookies" appear in the TITLE, with this content: Cookies - Unibet
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Sports and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Sports"
+
+Starting to validate if this text betting appear in the url
+Starting to find this text: betting, in this url: https://www.unibet.co.uk/betting#home
+Starting to sleep the thread 2000
+Starting to verify if this text: "betting" appear in the URL, with this content: https://www.unibet.co.uk/betting#home
+Starting to validate if this text Sports appear in the title
+Starting to find this text: Sports, in this title: Unibet UK | Leader of Online Betting Sites
+Starting to sleep the thread 2000
+Starting to verify if this text: "Sports" appear in the TITLE, with this content: Unibet UK | Leader of Online Betting Sites
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Casino and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Casino"
+
+Starting to validate if this text casino appear in the url
+Starting to find this text: casino, in this url: https://www.unibet.co.uk/casino#filter:uk-unibet-picks-casino-slots-7-420439
+Starting to sleep the thread 2000
+Starting to verify if this text: "casino" appear in the URL, with this content: https://www.unibet.co.uk/casino#filter:uk-unibet-picks-casino-slots-7-420439
+Starting to validate if this text Casino appear in the title
+Starting to find this text: Casino, in this title: Online Casino Get Your 200% Welcome Bonus | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Casino" appear in the TITLE, with this content: Online Casino Get Your 200% Welcome Bonus | Unibet UK
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Live Casino and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Live Casino"
+
+Starting to validate if this text casino appear in the url
+Starting to find this text: casino, in this url: https://www.unibet.co.uk/livecasino#filter:live-casino-all-live-games-7-419685
+Starting to sleep the thread 2000
+Starting to verify if this text: "casino" appear in the URL, with this content: https://www.unibet.co.uk/livecasino#filter:live-casino-all-live-games-7-419685
+Starting to validate if this text Casino appear in the title
+Starting to find this text: Casino, in this title: Live Casino | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Casino" appear in the TITLE, with this content: Live Casino | Unibet UK
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Bingo and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Bingo"
+
+Starting to validate if this text bingo appear in the url
+Starting to find this text: bingo, in this url: https://www.unibet.co.uk/bingo
+Starting to sleep the thread 2000
+Starting to verify if this text: "bingo" appear in the URL, with this content: https://www.unibet.co.uk/bingo
+Starting to validate if this text Bingo appear in the title
+Starting to find this text: Bingo, in this title: Online Bingo | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Bingo" appear in the TITLE, with this content: Online Bingo | Unibet UK
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Lottery Betting and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Lottery Betting"
+
+Starting to validate if this text lotto appear in the url
+Starting to find this text: lotto, in this url: https://www.unibet.co.uk/lotto#filter:scratch-new-nav-2017-7-815905
+Starting to sleep the thread 2000
+Starting to verify if this text: "lotto" appear in the URL, with this content: https://www.unibet.co.uk/lotto#filter:scratch-new-nav-2017-7-815905
+Starting to validate if this text Lottery appear in the title
+Starting to find this text: Lottery, in this title: Bet on the worlds biggest lotteries | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Lottery" appear in the TITLE, with this content: Bet on the worlds biggest lotteries | Unibet UK
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Poker and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Poker"
+
+Starting to validate if this text poker appear in the url
+Starting to find this text: poker, in this url: https://www.unibet.co.uk/poker
+Starting to sleep the thread 2000
+Starting to verify if this text: "poker" appear in the URL, with this content: https://www.unibet.co.uk/poker
+Starting to validate if this text Poker appear in the title
+Starting to find this text: Poker, in this title: Climb to the top of our €80,000 Bootcamp | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Poker" appear in the TITLE, with this content: Climb to the top of our €80,000 Bootcamp | Unibet UK
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Blog and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Blog"
+
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Apps and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Apps"
+
+Starting to validate if this text apps appear in the url
+Starting to find this text: apps, in this url: https://www.unibet.co.uk/apps
+Starting to sleep the thread 2000
+Starting to verify if this text: "apps" appear in the URL, with this content: https://www.unibet.co.uk/apps
+Starting to validate if this text Apps appear in the title
+Starting to find this text: Apps, in this title: Unibet UK | Download our apps on iOS and Android.
+Starting to sleep the thread 2000
+Starting to verify if this text: "Apps" appear in the TITLE, with this content: Unibet UK | Download our apps on iOS and Android.
+Test finished!, closing the driver
+Starting a testing of Mobile Web.
+Starting to access to the landing page of Blog
+Starting the access to the site Blog, in the enviroment, production
+Starting to click in a link with this text content: Special Offers and with some specific index of element in this case: 1
+Making a generic click in a web element with the text "Special Offers"
+
+Starting to validate if this text promotions appear in the url
+Starting to find this text: promotions, in this url: https://www.unibet.co.uk/promotions
+Starting to sleep the thread 2000
+Starting to verify if this text: "promotions" appear in the URL, with this content: https://www.unibet.co.uk/promotions
+Starting to validate if this text Special appear in the title
+Starting to find this text: Special, in this title: Great Promotions Offered on all of Our Products. | Unibet UK
+Starting to sleep the thread 2000
+Starting to verify if this text: "Special" appear in the TITLE, with this content: Great Promotions Offered on all of Our Products. | Unibet UK
+Test finished!, closing the driver
+
+14 Scenarios (&amp#27;[31m2 failed&amp#27;[0m, &amp#27;[32m12 passed&amp#27;[0m)
+57 Steps (&amp#27;[31m2 failed&amp#27;[0m, &amp#27;[36m1 skipped&amp#27;[0m, &amp#27;[32m54 passed&amp#27;[0m)
+7m5.266s
+
+java.lang.AssertionError: Appear a problem, is not possible to find some text in the paragraph expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.kindred.steps.Steps.verifyIfATextAppearCorrectlyDisplayed(Steps.java:26)
+	at ✽.Then verify if the text "Messi" appear correctly(mobile/interview_mobile_web.feature:11)
+
+org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Nicolass-MacBook-Pro.local', ip: '169.254.100.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=1440x2960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=ce07171735a7641d017e, platform=LINUX, deviceUDID=ce07171735a7641d017e, desired={noReset=false, browserName=Chrome, platformName=Android, deviceName=Android}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=SM-N950F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 4ecd56ca-9b7d-44e8-a9e8-fe7224d8db47
+*** Element info: {Using=xpath, value=(//*[contains(text(),'Blog')])['1']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:132)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kindred.framework.DSL.clickJSx2(DSL.java:291)
+	at com.kindred.framework.DSL.genericClickByContainsSomeTextAndWithSomeSpecificIndex(DSL.java:51)
+	at com.kindred.pageobject.web.GenericPage.genericMakeClickInALinkWithSomeText(GenericPage.java:30)
+	at com.kindred.steps.Steps.makeClickInATextPerT3ext(Steps.java:37)
+	at ✽.And make click in the link with the text "Blog", and with this index "1" in the body carrousel(mobile/interview_mobile_web.feature:29)
+
+org.openqa.selenium.remote.SessionNotFoundException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Nicolass-MacBook-Pro.local', ip: '169.254.100.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=1440x2960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=ce07171735a7641d017e, platform=LINUX, deviceUDID=ce07171735a7641d017e, desired={noReset=false, browserName=Chrome, platformName=Android, deviceName=Android}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=Chrome, javascriptEnabled=true, deviceModel=SM-N950F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 4ecd56ca-9b7d-44e8-a9e8-fe7224d8db47
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at com.kindred.steps.common.CommonSteps.afterMethod(CommonSteps.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:204)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:50)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:163)
+	at cucumber.runtime.Runtime.run(Runtime.java:120)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:43)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:200)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:212)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:689)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+]]></system-out>
+  </testcase>
+</testsuite>
